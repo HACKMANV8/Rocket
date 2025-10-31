@@ -1,0 +1,67 @@
+Generate a complete AI Mining Operations Co-Pilot project with the following specifications:
+
+**PROJECT STRUCTURE:**
+mining-copilot/
+├── backend/
+│   ├── app.py (Flask backend with MySQL + Timestream simulator for sensor data)
+│   ├── requirements.txt
+│   └── init_database.sql
+├── frontend/ (Angular)
+│   ├── src/app/app.component.ts
+│   ├── src/app/app.component.html
+│   ├── src/app/app.component.css
+│   └── package.json
+├── mobile/ (Flutter)
+│   ├── lib/main.dart
+│   ├── lib/chat_screen.dart
+│   └── pubspec.yaml
+└── README.md
+
+**BACKEND FEATURES:**
+- MySQL for equipment, maintenance, production data
+- Timestream simulator for sensor time-series data
+- Vector DB integration for semantic search
+- REST endpoints:
+    1. /api/query → receives natural language queries and responds using AI (Groq or Mistral LLM)
+    2. /api/data → returns equipment and sensor data
+    3. /api/alerts → returns upcoming maintenance alerts
+- Functions: fuel analysis, maintenance predictions, production insights
+
+**FRONTEND FEATURES:**
+- Angular app with:
+    - Chat interface with message history
+    - Real-time charts using Chart.js for fuel/production
+    - Maintenance alerts panel
+    - Responsive dashboard design
+    - Optional voice input component
+
+**MOBILE FEATURES:**
+- Flutter app with chat interface (bubble design)
+- API integration with backend
+- Voice input ready
+- Cross-platform support
+
+**KEY FEATURES:**
+1. Natural language query processing (AI)
+2. Predictive maintenance alerts
+3. Fuel consumption analysis
+4. Production efficiency tracking
+5. Carbon footprint calculations (SDG 13)
+6. Multi-format responses (text + charts)
+7. Voice interface on web/mobile
+
+**TECH STACK:**
+- Backend: Python Flask, MySQL, optional ChromaDB
+- Frontend: Angular, TypeScript, Chart.js
+- Mobile: Flutter, Dart, HTTP client
+- AI: Free API (Groq / Mistral LLM) for natural language queries
+
+**REQUIREMENTS:**
+- Generate all files in working state
+- Include sample MySQL schema and init scripts
+- Include Angular app with chat and charts
+- Backend should be ready to run (`python app.py`) and serve data to frontend
+- Make AI endpoint compatible with free API keys (Groq / Hugging Face)
+- Include README.md with setup instructions for backend and frontend
+
+Output the **full working code for all critical files**, including backend, frontend, and mobile skeleton.
