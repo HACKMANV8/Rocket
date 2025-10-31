@@ -1,0 +1,63 @@
+incident_date,mine_name,location,incident_type,severity,description,casualties,injuries,cost_impact,response_time_minutes,status
+2025-01-05,Alpha Mine,Region A,Collapse,Critical,Roof collapse in shaft,3,5,120000,30,Resolved
+2025-01-12,Beta Mine,Region B,Flood,High,Tunnel flooded after rain,0,2,50000,45,Resolved
+2025-01-18,Gamma Mine,Region C,Equipment Failure,Medium,Conveyor belt malfunction,0,0,15000,60,Resolved
+2025-01-25,Delta Mine,Region D,Fire,High,Electrical fire in storage,1,1,80000,20,Resolved
+2025-02-02,Epsilon Mine,Region E,Collapse,Critical,Collapse in main shaft,4,6,200000,35,Resolved
+2025-02-10,Zeta Mine,Region F,Flood,Medium,Minor flooding in tunnel,0,0,10000,40,Resolved
+2025-02-15,Eta Mine,Region G,Equipment Failure,Low,Drill malfunctioned,0,0,5000,50,Resolved
+2025-02-20,Theta Mine,Region H,Fire,High,Fire in storage area,0,1,40000,25,Resolved
+2025-02-28,Iota Mine,Region I,Collapse,Critical,Shaft collapse,2,3,150000,30,Resolved
+2025-03-05,Kappa Mine,Region J,Flood,Medium,Tunnel partially flooded,0,0,8000,35,Resolved
+2025-03-10,Lambda Mine,Region A,Equipment Failure,Medium,Loader breakdown,0,1,12000,55,Resolved
+2025-03-15,Mu Mine,Region B,Fire,High,Electrical fire in control room,1,0,60000,40,Resolved
+2025-03-18,Nu Mine,Region C,Collapse,Critical,Roof collapse in shaft,2,4,110000,45,Resolved
+2025-03-22,Xi Mine,Region D,Flood,Medium,Minor water ingress,0,0,7000,30,Resolved
+2025-03-25,Omicron Mine,Region E,Equipment Failure,Low,Conveyor belt stopped,0,0,3000,50,Resolved
+2025-03-28,Pi Mine,Region F,Fire,High,Fire in workshop,1,2,45000,25,Resolved
+2025-04-02,Rho Mine,Region G,Collapse,Critical,Shaft collapse,3,5,130000,35,Resolved
+2025-04-05,Sigma Mine,Region H,Flood,Medium,Water leak in tunnel,0,0,9000,40,Resolved
+2025-04-08,Tau Mine,Region I,Equipment Failure,Medium,Drill breakdown,0,0,15000,50,Resolved
+2025-04-12,Upsilon Mine,Region J,Fire,High,Fire in storage area,1,1,50000,30,Resolved
+2025-04-15,Phi Mine,Region A,Collapse,Critical,Road collapse,2,3,140000,40,Resolved
+2025-04-18,Chi Mine,Region B,Flood,Medium,Tunnel flooded,0,0,8000,45,Resolved
+2025-04-20,Psi Mine,Region C,Equipment Failure,Low,Loader breakdown,0,0,4000,50,Resolved
+2025-04-25,Omega Mine,Region D,Fire,High,Electrical fire,1,1,55000,35,Resolved
+2025-04-28,Alpha Mine,Region E,Collapse,Critical,Shaft collapse,3,6,160000,40,Resolved
+2025-05-02,Beta Mine,Region F,Flood,Medium,Water ingress,0,0,7000,50,Resolved
+2025-05-05,Gamma Mine,Region G,Equipment Failure,Medium,Conveyor jam,0,0,12000,55,Resolved
+2025-05-08,Delta Mine,Region H,Fire,High,Fire in control room,1,2,60000,30,Resolved
+2025-05-12,Epsilon Mine,Region I,Collapse,Critical,Roof collapse,2,4,150000,35,Resolved
+2025-05-15,Zeta Mine,Region J,Flood,Medium,Tunnel flooded,0,0,9000,45,Resolved
+2025-05-18,Eta Mine,Region A,Equipment Failure,Low,Drill failure,0,0,5000,50,Resolved
+2025-05-20,Theta Mine,Region B,Fire,High,Fire in workshop,1,1,45000,25,Resolved
+2025-05-25,Iota Mine,Region C,Collapse,Critical,Shaft collapse,3,5,140000,35,Resolved
+2025-05-28,Kappa Mine,Region D,Flood,Medium,Water ingress,0,0,8000,40,Resolved
+2025-06-02,Lambda Mine,Region E,Equipment Failure,Medium,Conveyor jam,0,0,13000,50,Resolved
+2025-06-05,Mu Mine,Region F,Fire,High,Fire in storage,1,2,55000,30,Resolved
+2025-06-08,Nu Mine,Region G,Collapse,Critical,Road collapse,2,3,160000,35,Resolved
+2025-06-12,Xi Mine,Region H,Flood,Medium,Tunnel flooded,0,0,7000,40,Resolved
+2025-06-15,Omicron Mine,Region I,Equipment Failure,Low,Loader stopped,0,0,4000,50,Resolved
+2025-06-18,Pi Mine,Region J,Fire,High,Fire in control room,1,1,60000,25,Resolved
+2025-06-22,Rho Mine,Region A,Collapse,Critical,Shaft collapse,3,6,170000,35,Resolved
+2025-06-25,Sigma Mine,Region B,Flood,Medium,Water ingress,0,0,8000,40,Resolved
+2025-06-28,Tau Mine,Region C,Equipment Failure,Medium,Drill failure,0,0,12000,50,Resolved
+2025-07-02,Upsilon Mine,Region D,Fire,High,Fire in workshop,1,2,50000,30,Resolved
+2025-07-05,Phi Mine,Region E,Collapse,Critical,Road collapse,2,3,150000,35,Resolved
+2025-07-08,Chi Mine,Region F,Flood,Medium,Tunnel flooded,0,0,9000,40,Resolved
+2025-07-12,Psi Mine,Region G,Equipment Failure,Low,Loader jammed,0,0,5000,50,Resolved
+2025-07-15,Omega Mine,Region H,Fire,High,Fire in storage,1,1,55000,25,Resolved
+2025-07-18,Alpha Mine,Region I,Collapse,Critical,Shaft collapse,3,5,160000,35,Resolved
+2025-07-22,Beta Mine,Region J,Flood,Medium,Water ingress,0,0,7000,40,Resolved
+2025-07-25,Gamma Mine,Region A,Equipment Failure,Medium,Conveyor jam,0,0,12000,50,Resolved
+2025-07-28,Delta Mine,Region B,Fire,High,Fire in control room,1,2,60000,30,Resolved
+2025-08-02,Epsilon Mine,Region C,Collapse,Critical,Road collapse,2,3,150000,35,Resolved
+2025-08-05,Zeta Mine,Region D,Flood,Medium,Tunnel flooded,0,0,8000,40,Resolved
+2025-08-08,Eta Mine,Region E,Equipment Failure,Low,Drill stopped,0,0,5000,50,Resolved
+2025-08-12,Theta Mine,Region F,Fire,High,Fire in workshop,1,1,45000,25,Resolved
+2025-08-15,Iota Mine,Region G,Collapse,Critical,Shaft collapse,3,5,140000,35,Resolved
+2025-08-18,Kappa Mine,Region H,Flood,Medium,Water ingress,0,0,9000,40,Resolved
+2025-08-22,Lambda Mine,Region I,Equipment Failure,Medium,Loader jammed,0,0,13000,50,Resolved
+2025-08-25,Mu Mine,Region J,Fire,High,Fire in storage,1,2,55000,30,Resolved
+2025-08-28,Nu Mine,Region A,Collapse,Critical,Road collapse,2,3,160000,35,Resolved
+2025-09-02,Xi Mine,Region B,Flood,Medium,Tunnel flooded,0,0,7000,40,Resolved

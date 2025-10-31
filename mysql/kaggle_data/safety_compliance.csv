@@ -1,0 +1,52 @@
+audit_date,site_name,compliance_score,violations,auditor_name,recommendations,follow_up_date
+2025-01-05,Mine A,95.5,2,John Doe,"Update safety signage; check helmets",2025-02-05
+2025-01-05,Mine B,92.0,4,Jane Smith,"Repair damaged railings; train staff",2025-02-06
+2025-01-05,Mine C,97.0,1,Alan Brown,"Check fire extinguishers; audit PPE",2025-02-07
+2025-01-12,Mine A,94.0,3,John Doe,"Inspect ventilation system; safety training",2025-02-12
+2025-01-12,Mine B,90.5,5,Jane Smith,"Replace worn-out ladders; PPE checks",2025-02-13
+2025-01-12,Mine C,96.5,2,Alan Brown,"Emergency drill; check alarms",2025-02-14
+2025-01-19,Mine A,93.5,4,John Doe,"Update safety policies; train staff",2025-02-19
+2025-01-19,Mine B,91.0,3,Jane Smith,"Inspect machinery guards; PPE",2025-02-20
+2025-01-19,Mine C,95.0,2,Alan Brown,"Check fire exits; first-aid readiness",2025-02-21
+2025-01-26,Mine A,94.5,3,John Doe,"Safety signage; monitor hazards",2025-02-26
+2025-01-26,Mine B,92.5,4,Jane Smith,"Drill emergency evacuation; train staff",2025-02-27
+2025-01-26,Mine C,96.0,1,Alan Brown,"Check PPE stock; fire safety",2025-02-28
+2025-02-02,Mine A,95.0,2,John Doe,"Inspect ladders; enforce helmet use",2025-03-02
+2025-02-02,Mine B,91.5,3,Jane Smith,"Machinery safety check; ventilation",2025-03-03
+2025-02-02,Mine C,96.5,1,Alan Brown,"Emergency preparedness; alarms",2025-03-04
+2025-02-09,Mine A,93.0,4,John Doe,"Safety drills; signage check",2025-03-09
+2025-02-09,Mine B,90.0,5,Jane Smith,"Replace worn PPE; train workers",2025-03-10
+2025-02-09,Mine C,95.5,2,Alan Brown,"Fire extinguishers; first aid",2025-03-11
+2025-02-16,Mine A,94.0,3,John Doe,"Ventilation inspection; monitor hazards",2025-03-16
+2025-02-16,Mine B,91.0,4,Jane Smith,"Emergency drill; machinery guards",2025-03-17
+2025-02-16,Mine C,96.0,2,Alan Brown,"Check fire exits; PPE audit",2025-03-18
+2025-02-23,Mine A,95.5,1,John Doe,"Update signage; helmet compliance",2025-03-23
+2025-02-23,Mine B,92.0,3,Jane Smith,"Safety training; ladder inspection",2025-03-24
+2025-02-23,Mine C,97.0,1,Alan Brown,"Fire safety drill; alarms",2025-03-25
+2025-03-02,Mine A,94.5,2,John Doe,"Inspect ventilation; PPE",2025-04-02
+2025-03-02,Mine B,91.5,4,Jane Smith,"Machinery maintenance; training",2025-04-03
+2025-03-02,Mine C,96.5,1,Alan Brown,"Emergency preparedness; first aid",2025-04-04
+2025-03-09,Mine A,93.5,3,John Doe,"Safety signage; helmet checks",2025-04-09
+2025-03-09,Mine B,90.0,5,Jane Smith,"Replace ladders; train staff",2025-04-10
+2025-03-09,Mine C,95.0,2,Alan Brown,"Fire extinguisher check; drills",2025-04-11
+2025-03-16,Mine A,94.0,2,John Doe,"Ventilation inspection; safety training",2025-04-16
+2025-03-16,Mine B,91.0,3,Jane Smith,"Machinery guards; PPE audit",2025-04-17
+2025-03-16,Mine C,96.0,1,Alan Brown,"Emergency exit check; alarms",2025-04-18
+2025-03-23,Mine A,95.5,2,John Doe,"Update signage; monitor hazards",2025-04-23
+2025-03-23,Mine B,92.0,4,Jane Smith,"Emergency drill; PPE",2025-04-24
+2025-03-23,Mine C,97.0,1,Alan Brown,"Fire safety; first aid",2025-04-25
+2025-03-30,Mine A,94.5,3,John Doe,"Safety signage; helmet checks",2025-04-30
+2025-03-30,Mine B,91.5,4,Jane Smith,"Machinery inspection; training",2025-05-01
+2025-03-30,Mine C,96.5,1,Alan Brown,"Emergency preparedness; alarms",2025-05-02
+2025-04-06,Mine A,93.0,4,John Doe,"Ventilation; PPE",2025-05-06
+2025-04-06,Mine B,90.0,5,Jane Smith,"Replace ladders; train staff",2025-05-07
+2025-04-06,Mine C,95.5,2,Alan Brown,"Fire drills; check extinguishers",2025-05-08
+2025-04-13,Mine A,94.0,3,John Doe,"Safety signage; helmet compliance",2025-05-13
+2025-04-13,Mine B,91.0,4,Jane Smith,"Emergency drill; PPE audit",2025-05-14
+2025-04-13,Mine C,96.0,2,Alan Brown,"Fire exit check; first aid",2025-05-15
+2025-04-20,Mine A,95.5,2,John Doe,"Ventilation; monitor hazards",2025-05-20
+2025-04-20,Mine B,92.0,3,Jane Smith,"Machinery guards; safety training",2025-05-21
+2025-04-20,Mine C,97.0,1,Alan Brown,"Emergency preparedness; alarms",2025-05-22
+2025-04-27,Mine A,94.5,3,John Doe,"Signage; PPE checks",2025-05-27
+2025-04-27,Mine B,91.5,4,Jane Smith,"Machinery maintenance; drills",2025-05-28
+2025-04-27,Mine C,96.5,2,Alan Brown,"Fire safety; first aid",2025-05-29

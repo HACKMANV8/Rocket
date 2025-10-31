@@ -1,0 +1,52 @@
+equipment_id,equipment_type,manufacturer,model,status,last_maintenance,next_maintenance,operating_hours,efficiency_score,temperature_celsius,vibration_level,alerts,location
+EQ001,Excavator,Caterpillar,320D,Operational,2025-01-10,2025-06-10,1200,98.5,75.2,0.5,,Mine A
+EQ002,Drill,Komatsu,DH215,Maintenance,2025-02-15,2025-08-15,900,92.0,70.0,0.7,Oil leakage,Mine B
+EQ003,Loader,Volvo,L150H,Operational,2025-03-20,2025-09-20,1500,95.5,68.0,0.4,,Mine C
+EQ004,Dump Truck,Caterpillar,777G,Critical,2025-01-30,2025-07-30,2000,85.0,80.0,1.2,Engine overheating,Mine A
+EQ005,Excavator,Komatsu,PC210,Operational,2025-02-05,2025-08-05,1100,97.0,72.5,0.6,,Mine B
+EQ006,Drill,Atlas Copco,DM30,Maintenance,2025-03-12,2025-09-12,950,91.5,69.0,0.8,Hydraulic issue,Mine C
+EQ007,Loader,Hitachi,ZW220,Operational,2025-01-18,2025-07-18,1300,96.0,71.0,0.5,,Mine A
+EQ008,Dump Truck,Volvo,A40G,Offline,2025-02-25,2025-08-25,1700,0.0,0.0,0.0,Broken wheel,Mine B
+EQ009,Excavator,Caterpillar,336F,Operational,2025-03-01,2025-09-01,1250,94.5,73.0,0.6,,Mine C
+EQ010,Drill,Komatsu,DH500,Operational,2025-01-22,2025-07-22,1400,95.0,70.5,0.7,,Mine A
+EQ011,Loader,Volvo,L180H,Operational,2025-02-14,2025-08-14,1150,93.5,68.5,0.4,,Mine B
+EQ012,Dump Truck,Caterpillar,789D,Critical,2025-03-08,2025-09-08,2100,80.0,82.0,1.5,Engine failure,Mine C
+EQ013,Excavator,Komatsu,PC300,Maintenance,2025-01-12,2025-07-12,1000,90.0,71.5,0.5,Hydraulic leak,Mine A
+EQ014,Drill,Atlas Copco,DM45,Operational,2025-02-20,2025-08-20,1100,94.0,69.5,0.6,,Mine B
+EQ015,Loader,Hitachi,ZW250,Operational,2025-03-15,2025-09-15,1350,96.5,72.0,0.4,,Mine C
+EQ016,Dump Truck,Volvo,A60H,Operational,2025-01-28,2025-07-28,1800,97.0,74.0,0.5,,Mine A
+EQ017,Excavator,Caterpillar,320F,Maintenance,2025-02-07,2025-08-07,1200,92.5,73.5,0.6,Oil leakage,Mine B
+EQ018,Drill,Komatsu,DH600,Critical,2025-03-18,2025-09-18,1000,85.0,71.0,1.0,Drill jammed,Mine C
+EQ019,Loader,Volvo,L150H,Operational,2025-01-05,2025-07-05,1250,95.5,70.0,0.5,,Mine A
+EQ020,Dump Truck,Caterpillar,777F,Operational,2025-02-11,2025-08-11,1600,96.0,73.0,0.6,,Mine B
+EQ021,Excavator,Komatsu,PC200,Operational,2025-03-03,2025-09-03,1300,97.5,72.5,0.4,,Mine C
+EQ022,Drill,Atlas Copco,DM50,Maintenance,2025-01-20,2025-07-20,950,91.0,69.0,0.7,Hydraulic issue,Mine A
+EQ023,Loader,Hitachi,ZW230,Operational,2025-02-25,2025-08-25,1400,95.0,70.5,0.5,,Mine B
+EQ024,Dump Truck,Volvo,A40F,Critical,2025-03-10,2025-09-10,2000,82.0,81.0,1.3,Engine overheating,Mine C
+EQ025,Excavator,Caterpillar,336E,Operational,2025-01-15,2025-07-15,1150,96.0,72.0,0.4,,Mine A
+EQ026,Drill,Komatsu,DH450,Operational,2025-02-28,2025-08-28,1250,94.5,70.0,0.5,,Mine B
+EQ027,Loader,Volvo,L180G,Maintenance,2025-03-12,2025-09-12,1300,92.0,68.5,0.6,Hydraulic leak,Mine C
+EQ028,Dump Truck,Caterpillar,789E,Operational,2025-01-22,2025-07-22,1900,97.0,75.0,0.5,,Mine A
+EQ029,Excavator,Komatsu,PC350,Operational,2025-02-14,2025-08-14,1200,95.5,73.5,0.4,,Mine B
+EQ030,Drill,Atlas Copco,DM60,Operational,2025-03-05,2025-09-05,1000,93.0,71.0,0.6,,Mine C
+EQ031,Loader,Hitachi,ZW260,Operational,2025-01-10,2025-07-10,1450,96.5,72.0,0.4,,Mine A
+EQ032,Dump Truck,Volvo,A50G,Maintenance,2025-02-18,2025-08-18,1800,91.0,74.0,0.7,Brake issue,Mine B
+EQ033,Excavator,Caterpillar,320G,Operational,2025-03-22,2025-09-22,1300,97.0,72.5,0.5,,Mine C
+EQ034,Drill,Komatsu,DH700,Operational,2025-01-12,2025-07-12,950,94.0,70.0,0.4,,Mine A
+EQ035,Loader,Volvo,L200H,Critical,2025-02-25,2025-08-25,1500,85.0,80.0,1.0,Engine failure,Mine B
+EQ036,Dump Truck,Caterpillar,777H,Operational,2025-03-18,2025-09-18,2000,96.5,73.5,0.5,,Mine C
+EQ037,Excavator,Komatsu,PC400,Operational,2025-01-05,2025-07-05,1250,95.0,72.0,0.4,,Mine A
+EQ038,Drill,Atlas Copco,DM70,Maintenance,2025-02-11,2025-08-11,1000,91.5,69.5,0.6,Hydraulic issue,Mine B
+EQ039,Loader,Hitachi,ZW280,Operational,2025-03-03,2025-09-03,1400,96.0,71.5,0.5,,Mine C
+EQ040,Dump Truck,Volvo,A60G,Operational,2025-01-20,2025-07-20,1700,97.0,74.0,0.4,,Mine A
+EQ041,Excavator,Caterpillar,336G,Operational,2025-02-25,2025-08-25,1200,95.5,73.0,0.4,,Mine B
+EQ042,Drill,Komatsu,DH800,Operational,2025-03-10,2025-09-10,1100,94.0,71.5,0.5,,Mine C
+EQ043,Loader,Volvo,L220H,Maintenance,2025-01-15,2025-07-15,1300,91.5,69.5,0.6,Hydraulic leak,Mine A
+EQ044,Dump Truck,Caterpillar,789F,Operational,2025-02-28,2025-08-28,2000,97.0,75.0,0.5,,Mine B
+EQ045,Excavator,Komatsu,PC450,Operational,2025-03-12,2025-09-12,1250,96.0,72.5,0.4,,Mine C
+EQ046,Drill,Atlas Copco,DM90,Critical,2025-01-22,2025-07-22,1000,85.0,71.0,1.0,Drill jammed,Mine A
+EQ047,Loader,Hitachi,ZW300,Operational,2025-02-14,2025-08-14,1500,96.5,72.0,0.4,,Mine B
+EQ048,Dump Truck,Volvo,A70G,Operational,2025-03-05,2025-09-05,1800,97.5,74.0,0.5,,Mine C
+EQ049,Excavator,Caterpillar,320H,Maintenance,2025-01-10,2025-07-10,1200,91.0,70.0,0.6,Oil leak,Mine A
+EQ050,Drill,Komatsu,DH900,Operational,2025-02-18,2025-08-18,1050,94.5,71.5,0.5,,Mine B
+

@@ -1,0 +1,65 @@
+site_name,metric_date,material_type,quality_grade,defects_found
+Site-A,2025-09-01,Iron Ore,A,2
+Site-B,2025-09-01,Coal,B,5
+Site-C,2025-09-01,Copper,C,8
+Site-D,2025-09-01,Gold,A,1
+Site-E,2025-09-01,Iron Ore,B,3
+Site-F,2025-09-01,Coal,A,2
+Site-G,2025-09-01,Copper,B,4
+Site-H,2025-09-01,Gold,C,6
+Site-A,2025-09-02,Iron Ore,B,3
+Site-B,2025-09-02,Coal,A,1
+Site-C,2025-09-02,Copper,B,4
+Site-D,2025-09-02,Gold,A,0
+Site-E,2025-09-02,Iron Ore,C,7
+Site-F,2025-09-02,Coal,B,3
+Site-G,2025-09-02,Copper,A,2
+Site-H,2025-09-02,Gold,B,3
+Site-A,2025-09-03,Iron Ore,A,1
+Site-B,2025-09-03,Coal,C,6
+Site-C,2025-09-03,Copper,B,4
+Site-D,2025-09-03,Gold,A,0
+Site-E,2025-09-03,Iron Ore,B,3
+Site-F,2025-09-03,Coal,A,2
+Site-G,2025-09-03,Copper,C,5
+Site-H,2025-09-03,Gold,B,2
+Site-A,2025-09-04,Iron Ore,B,3
+Site-B,2025-09-04,Coal,A,1
+Site-C,2025-09-04,Copper,B,4
+Site-D,2025-09-04,Gold,C,6
+Site-E,2025-09-04,Iron Ore,A,0
+Site-F,2025-09-04,Coal,B,3
+Site-G,2025-09-04,Copper,A,2
+Site-H,2025-09-04,Gold,B,3
+Site-A,2025-09-05,Iron Ore,C,7
+Site-B,2025-09-05,Coal,B,3
+Site-C,2025-09-05,Copper,A,2
+Site-D,2025-09-05,Gold,B,3
+Site-E,2025-09-05,Iron Ore,A,1
+Site-F,2025-09-05,Coal,C,5
+Site-G,2025-09-05,Copper,B,4
+Site-H,2025-09-05,Gold,A,0
+Site-A,2025-09-06,Iron Ore,B,3
+Site-B,2025-09-06,Coal,A,1
+Site-C,2025-09-06,Copper,C,5
+Site-D,2025-09-06,Gold,B,2
+Site-E,2025-09-06,Iron Ore,A,1
+Site-F,2025-09-06,Coal,B,3
+Site-G,2025-09-06,Copper,A,2
+Site-H,2025-09-06,Gold,C,6
+Site-A,2025-09-07,Iron Ore,B,3
+Site-B,2025-09-07,Coal,A,1
+Site-C,2025-09-07,Copper,B,4
+Site-D,2025-09-07,Gold,A,0
+Site-E,2025-09-07,Iron Ore,C,7
+Site-F,2025-09-07,Coal,B,3
+Site-G,2025-09-07,Copper,A,2
+Site-H,2025-09-07,Gold,B,3
+Site-A,2025-09-08,Iron Ore,A,1
+Site-B,2025-09-08,Coal,C,6
+Site-C,2025-09-08,Copper,B,4
+Site-D,2025-09-08,Gold,A,0
+Site-E,2025-09-08,Iron Ore,B,3
+Site-F,2025-09-08,Coal,A,2
+Site-G,2025-09-08,Copper,C,5
+Site-H,2025-09-08,Gold,B,2
