@@ -1,0 +1,20 @@
+.chart-container {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.chart-wrapper {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+}
+
+/* Remove the old styles that don't fit chat context */
+.charts-container, .chart-card {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}

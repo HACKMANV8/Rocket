@@ -1,0 +1,133 @@
+<div class="app-container">
+  <!-- Header (Keep as is) -->
+  <header class="app-header">
+    <div class="header-content">
+      <div class="logo-section">
+        <div class="logo-icon">⚙️</div>
+        <div>
+          <h1>{{ title }}</h1>
+          <p class="subtitle">Mining Intelligence Assistant</p>
+        </div>
+      </div>
+      
+      <div class="header-actions">
+        <button class="history-btn" (click)="toggleHistory()">☰ History</button>
+        <div class="language-selector">
+          <label for="language">🌐 Language:</label>
+          <select 
+            id="language" 
+            [(ngModel)]="selectedLanguage" 
+            (change)="onLanguageChange($event)"
+            class="language-dropdown">
+            <option *ngFor="let lang of languages | keyvalue" [value]="lang.key">
+              {{ lang.value }}
+            </option>
+          </select>
+        </div>
+        
+        <div class="health-status">
+          <span [class.healthy]="isHealthy" [class.unhealthy]="!isHealthy">
+            {{ isHealthy ? '● Online' : '● Offline' }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content - UPDATED LAYOUT -->
+  <main class="main-content">
+    <div class="dashboard-layout">
+      
+      <!-- 75% - CHAT CONTAINER (Main Focus) -->
+      <div class="chat-main-section">
+        <app-chat [language]="selectedLanguage"></app-chat>
+      </div>
+
+      <!-- 25% - SIDEBAR (Supplementary) -->
+      <div class="sidebar-section">
+        <!-- Quick Actions -->
+        <div class="sidebar-card">
+          <h3>🚀 Quick Actions</h3>
+          <div class="quick-actions">
+            <button (click)="suggestQuestion('Show me equipment with critical status')" 
+                    class="action-btn">
+              🔧 Equipment Status
+            </button>
+            <button (click)="suggestQuestion('Recent safety incidents and trends')" 
+                    class="action-btn">
+              🛡️ Safety Overview
+            </button>
+            <button (click)="suggestQuestion('Current production efficiency')" 
+                    class="action-btn">
+              📊 Production Metrics
+            </button>
+            <button (click)="suggestQuestion('Maintenance alerts and schedules')" 
+                    class="action-btn">
+              ⚡ Maintenance
+            </button>
+          </div>
+        </div>
+
+        <!-- System Status -->
+        <div class="sidebar-card" *ngIf="systemStatus">
+          <h3>📈 System Status</h3>
+          <div class="status-list">
+            <div class="status-item">
+              <span class="status-dot" [class.online]="systemStatus.database"></span>
+              Database
+            </div>
+            <div class="status-item">
+              <span class="status-dot" [class.online]="systemStatus.chromadb"></span>
+              Vector DB
+            </div>
+            <div class="status-item">
+              <span class="status-dot" [class.online]="systemStatus.mistral_ai"></span>
+              AI Service
+            </div>
+          </div>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="sidebar-card">
+          <h3>📋 Suggested Questions</h3>
+          <div class="suggested-questions">
+            <div (click)="suggestQuestion('What equipment needs immediate maintenance?')" 
+                 class="suggestion-item">
+              Equipment maintenance needs
+            </div>
+            <div (click)="suggestQuestion('How is our safety performance trending?')" 
+                 class="suggestion-item">
+              Safety performance trends
+            </div>
+            <div (click)="suggestQuestion('Which mine has the best efficiency?')" 
+                 class="suggestion-item">
+              Mine efficiency comparison
+            </div>
+            <div (click)="suggestQuestion('What are current production bottlenecks?')" 
+                 class="suggestion-item">
+              Production bottlenecks
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Slide-in History Drawer -->
+  <div class="history-drawer" [class.open]="showHistory">
+    <div class="history-header">
+      <h3>🕘 Chat History</h3>
+      <button (click)="toggleHistory()">✖</button>
+    </div>
+    <div class="history-list">
+      <div *ngFor="let s of sessions" class="history-item" (click)="openSession(s.id)">
+        <div class="history-title">
+          {{ s.title && s.title.trim() ? s.title : (s.messages[0]?.content?.slice(0,30) || 'New chat') }}
+        </div>
+        <div class="history-meta">{{ s.updatedAt | date:'short' }} · {{ s.language?.toUpperCase() || 'EN' }}</div>
+      </div>
+      <div *ngIf="!sessions?.length" class="history-empty">No chats yet</div>
+    </div>
+  </div>
+</div>

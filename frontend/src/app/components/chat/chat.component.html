@@ -1,0 +1,136 @@
+<div class="chat-container">
+  <!-- Chat Header -->
+  <div class="chat-header">
+    <h2>💬 Mining AI Assistant</h2>
+    <div class="chat-actions">
+      <label class="audio-toggle">
+        <input type="checkbox" [(ngModel)]="includeAudio"> 🔊 Audio
+      </label>
+      <button class="clear-btn" (click)="clearChat()">Clear Chat</button>
+    </div>
+  </div>
+
+  <!-- Chat Messages -->
+  <div #chatMessages class="chat-messages">
+    <!-- Loading Indicator -->
+    <div *ngIf="isLoading" class="loading-indicator">
+      <div class="typing-animation">
+        <span></span><span></span><span></span>
+      </div>
+      <span>Analyzing mining data...</span>
+    </div>
+
+    <!-- Messages -->
+    <div *ngFor="let message of messages" 
+         [class.user-message]="message.role === 'user'"
+         [class.assistant-message]="message.role === 'assistant'"
+         class="message">
+      
+      <div class="message-avatar">
+        {{ message.role === 'user' ? '👤' : '🤖' }}
+      </div>
+      
+      <div class="message-content">
+        <div class="message-text">{{ message.content }}</div>
+        
+        <!-- Embedded KPIs -->
+        <div *ngIf="message.visualizations?.kpis" class="embedded-kpis">
+          <h4>📊 Key Performance Indicators</h4>
+          <div class="kpi-grid">
+            <div class="kpi-card" [class.critical]="(message.visualizations.kpis.critical_alerts || 0) > 0">
+              <div class="kpi-value">{{ message.visualizations.kpis.critical_alerts || 0 }}</div>
+              <div class="kpi-label">Critical Alerts</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-value">{{ message.visualizations.kpis.avg_efficiency || 0 }}%</div>
+              <div class="kpi-label">Avg Efficiency</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-value">{{ message.visualizations.kpis.total_incidents || 0 }}</div>
+              <div class="kpi-label">Total Incidents</div>
+            </div>
+            <div class="kpi-card">
+              <div class="kpi-value">{{ (message.visualizations.kpis.monthly_production || 0) | number }}</div>
+              <div class="kpi-label">Monthly Production</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Embedded Charts -->
+        <div *ngIf="message.visualizations?.charts && hasChartData(message.visualizations.charts)" class="embedded-charts">
+          <h4>📈 Data Visualizations</h4>
+          
+          <!-- Equipment Status Chart -->
+          <div *ngIf="message.visualizations.charts.equipment_status?.length" class="chart-container">
+            <h5>Equipment Status Distribution</h5>
+            <app-charts 
+              [data]="message.visualizations.charts.equipment_status"
+              [type]="'doughnut'"
+              [title]="'Equipment Status'">
+            </app-charts>
+          </div>
+
+          <!-- Production Trend Chart -->
+          <div *ngIf="message.visualizations.charts.production_trend?.length" class="chart-container">
+            <h5>Production Trend</h5>
+            <app-charts 
+              [data]="message.visualizations.charts.production_trend"
+              [type]="'line'"
+              [title]="'Production Over Time'">
+            </app-charts>
+          </div>
+
+          <!-- Incidents Trend Chart -->
+          <div *ngIf="message.visualizations.charts.incidents_trend?.length" class="chart-container">
+            <h5>Incidents Trend</h5>
+            <app-charts 
+              [data]="message.visualizations.charts.incidents_trend"
+              [type]="'bar'"
+              [title]="'Incidents Over Time'">
+            </app-charts>
+          </div>
+        </div>
+
+        <!-- Embedded Recommendations -->
+        <div *ngIf="message.recommendations?.length" class="embedded-recommendations">
+          <h4>💡 Recommendations</h4>
+          <div class="recommendations-list">
+            <div *ngFor="let rec of message.recommendations" class="recommendation-item">
+              {{ rec }}
+            </div>
+          </div>
+        </div>
+
+        <!-- Message Footer -->
+        <div class="message-footer">
+          <span class="message-time">{{ message.timestamp | date:'shortTime' }}</span>
+          <button *ngIf="message.audio?.success" class="audio-btn" (click)="playAudio(message)">
+            🔊 Play Audio
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Input -->
+  <div class="chat-input-container">
+    <textarea 
+      #chatInput
+      [(ngModel)]="userInput"
+      (keydown.enter)="handleEnterEvent($event)"
+      placeholder="Ask about equipment status, production metrics, safety incidents..."
+      class="chat-input"
+      rows="3">
+    </textarea>
+    <label class="upload-btn">
+      📎 Import
+      <input type="file" accept=".csv,.pdf" (change)="onFileSelected($event)" hidden>
+    </label>
+    <button 
+      (click)="sendMessage()" 
+      [disabled]="!userInput.trim() || isLoading"
+      class="send-btn">
+      {{ isLoading ? '⏳' : '📤 Send' }}
+    </button>
+  </div>
+</div>
